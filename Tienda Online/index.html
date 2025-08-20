@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1>Tienda Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#products">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                🛒 (<span id="cart-count">0</span>)
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="products" class="product-grid">
+            
+            <article class="product-card">
+                <img src="./Assets/shoes-5351339_1280-removebg-preview.png" alt="Zapatillas Deportivas">
+                <h3>Zapatillas Deportivas</h3>
+                <p>Zapatillas ligeras para running y uso diario. Disponibles en varios colores.</p>
+                <span class="price">$75.00</span>
+                <button class="add-to-cart-btn">Añadir al carrito</button>
+            </article>
+
+            <article class="product-card">
+                <img src="./Assets/camera-158259_1280.png" alt="Cámara Profesional">
+                <h3>Cámara Profesional</h3>
+                <p>Ideal para fotógrafos aficionados y profesionales. Alta resolución y rendimiento.</p>
+                <span class="price">$450.00</span>
+                <button class="add-to-cart-btn">Añadir al carrito</button>
+            </article>
+
+            <article class="product-card">
+                <img src="./Assets/headphones-3683983_1280-removebg-preview.png" alt="Auriculares Inalámbricos">
+                <h3>Auriculares Inalámbricos</h3>
+                <p>Sonido de alta fidelidad y batería de larga duración. Conexión Bluetooth.</p>
+                <span class="price">$120.00</span>
+                <button class="add-to-cart-btn">Añadir al carrito</button>
+            </article>
+
+            <article class="product-card">
+                <img src="./Assets/clock-756487_1280-removebg-preview.png" alt="Reloj Inteligente">
+                <h3>Reloj Inteligente</h3>
+                <p>Monitor de actividad física, notificaciones y más. Compatible con iOS y Android.</p>
+                <span class="price">$250.00</span>
+                <button class="add-to-cart-btn">Añadir al carrito</button>
+            </article>
+
+        </section>
+        
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

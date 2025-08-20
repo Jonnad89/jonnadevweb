@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonndev - Marca Personal</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="./Assets/code-5113374_1280.jpg" alt="Foto de Perfil">
+            </div>
+            <h1>Jonatan</h1>
+            <p class="subtitle">Desarrollador Web & Diseñador UX</p>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="about" class="section">
+            <h2>Sobre Mí</h2>
+            <p>Soy un desarrollador apasionado con más de 5 años de experiencia creando soluciones web robustas y amigables. Mi enfoque se centra en la intersección de la tecnología y el diseño, asegurando que cada proyecto no solo funcione a la perfección, sino que también ofrezca una experiencia de usuario excepcional.</p>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Mis Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Desarrollo Frontend</h3>
+                    <p>Creación de interfaces de usuario atractivas y responsivas con HTML, CSS y JavaScript.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Diseño UX/UI</h3>
+                    <p>Investigación de usuarios, prototipado y diseño de flujos para productos digitales.</p>
+                </div>
+                <div class="service-card">
+                    <h3>E-commerce</h3>
+                    <p>Desarrollo de tiendas online personalizadas y optimizadas para la conversión.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Portafolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="./Assets/online-6817350_1280.jpg" alt="Proyecto 1">
+                    <h4>Proyecto de E-commerce</h4>
+                    <p>Un diseño moderno y funcional para una tienda de moda en línea.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="./Assets/country-brands-4661016_1280.jpg" alt="Proyecto 2">
+                    <h4>Aplicación de Reservas</h4>
+                    <p>Una interfaz intuitiva para gestionar reservas de un restaurante.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jonnadev. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
